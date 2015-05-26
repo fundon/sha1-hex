@@ -1,0 +1,29 @@
+{
+  "name": "sha1-hex",
+  "version": "1.0.0",
+  "description": "Create a SHA1 hash with hex encoding",
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": "fundon/sha1-hex",
+  "keywords": [
+    "hash",
+    "crypto",
+    "sha1",
+    "hex",
+    "buffer"
+  ],
+  "engines": {
+    "node": ">=0.10.0",
+    "iojs": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
